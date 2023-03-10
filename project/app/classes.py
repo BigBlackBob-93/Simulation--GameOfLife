@@ -22,8 +22,7 @@ class Cell:
     def is_alive(self) -> bool:
         if self.state == ALIVE:
             return True
-        else:
-            return False
+        return False
 
 
 class Generation:

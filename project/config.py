@@ -1,4 +1,6 @@
-WIDTH = 10
+WIDTH = 20
 HEIGHT = 10
+MAX_WIDTH = 40
+MAX_HEIGHT = 30
 DEAD_col = '#ffe4e1'
 ALIVE_col = '#a71360'
