@@ -40,6 +40,9 @@ def set_btn(btn: QPushButton, label: str, above: int, left: int):
 launch_btn = QPushButton(window)
 set_btn(launch_btn, "Start/Stop", above=70, left=120)
 
+reset_btn = QPushButton(window)
+set_btn(reset_btn, "Reset", above=100, left=120)
+
 random_btn = QPushButton(window)
 set_btn(random_btn, "Random", above=40, left=120)
 

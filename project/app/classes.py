@@ -45,8 +45,10 @@ class Generation:
             return True
         return False
 
-    def search_cell(self, pos: tuple) -> Union[bool, Cell]:
+    def search_cell(self, pos: tuple) -> Union[None, int]:
+        index = 0
         for cell in self.generation:
             if cell.pos() == pos:
-                return cell
-        return False
+                return index
+            index += 1
+        return None
